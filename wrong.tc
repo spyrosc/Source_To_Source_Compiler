@@ -1,0 +1,8 @@
+ (* wrong program missing ) , ; *)
+ const message[14] <- "Hello world!\n": string;
+
+ const start <- (): int => {
+
+writeString(message
+
+ }

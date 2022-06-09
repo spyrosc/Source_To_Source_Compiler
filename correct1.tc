@@ -1,0 +1,15 @@
+--this is a while,if,assign,return command and writeString test 
+
+
+const message[14] <- "Hello world!\n": string;
+const start <- (): int => {
+let i<-1 : int;
+while i<20 loop
+if i%2=0 then 
+writeString(message);
+fi;
+i<-i+1;
+pool;
+
+return 0;
+}
