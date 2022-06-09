@@ -1,3 +1,5 @@
+Compile with these commands or with the Makefile.
+
 bison -d -v -r all teac_parser.y
 flex teac_lex.l
 gcc -o mycomp teac_parser.tab.c lex.yy.c cgen.c -lfl
